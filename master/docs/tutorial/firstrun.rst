@@ -191,7 +191,7 @@ It should end with lines like these:
   2014-11-01 15:56:51+0100 [Broker,client] message from master: attached
   The worker appears to have (re)started correctly.
 
-Meanwhile, from the other terminal, in the master log (:file:`twisted.log` in the master directory), you should see lines like these:
+Meanwhile, from the other terminal, in the master log (:file:`twistd.log` in the master directory), you should see lines like these:
 
 .. code-block:: none
 
